@@ -214,8 +214,8 @@ ul.feeds-cont li a {
 
 .img-banner {
 
-	background-image: url("#.jpg");
-	background-color: teal;
+	background-image: url("../doing-business.jpg");
+	background-color: white;
   background-repeat: no-repeat;
   background-size:100% auto;
   width: 100%;
