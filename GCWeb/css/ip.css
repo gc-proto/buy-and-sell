@@ -148,7 +148,7 @@ ul.feeds-cont li a {
 
 .text-banner {
 
-	color: white;
+	color: black;
 	margin-top: 8px;
 
 
@@ -156,18 +156,18 @@ ul.feeds-cont li a {
 
 .text-background-1 {
 
-		background-color: #26374a;
+		background-color: white;
 		padding-top: 15px;
-		/* opacity: .95; */
+		opacity: .8;
 
 }
 
 
 .text-background-2 {
 
-		background-color: #26374a;
+		background-color: white;
 		padding-bottom: 15px;
-		/* opacity: .95; */
+		opacity: .8;
 }
 
 
