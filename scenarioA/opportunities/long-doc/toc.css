@@ -75,6 +75,12 @@ nav[data-toggle=toc] .nav .nav {
     padding-bottom: 10px
 }
 
+nav[data-toggle=toc] .nav .nav .nav{
+    display: none;
+    padding-bottom: 10px
+}
+
+
 nav[data-toggle=toc] .nav .nav>li>a {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -95,6 +101,36 @@ nav[data-toggle=toc] .nav .nav>.active>a {
     font-weight: 700
 }
 
-nav[data-toggle=toc] .nav>.active>ul {
-    display: block
+/* nav[data-toggle=toc] .nav .nav>.active>ul>ul,
+nav[data-toggle=toc] .nav .nav .nav>.active>ul>ul>ul {
+  display: block
+} */
+
+nav[data-toggle=toc] .nav>.active>ul,
+nav[data-toggle=toc] .nav>.active>ul>ul {
+    display: block 
 }
+
+/* nav[data-toggle=toc] .nav .nav>.active>.nav>ul{
+    display: block
+} */
+
+ nav[data-toggle=toc] ul.nav li.active ul.nav li.active ul.nav {
+    display: block !important;
+}
+
+/* nav[data-toggle=toc] ul.nav li.active ul.nav li.active .nav {
+    display: block !important;
+} */
+/*
+nav[data-toggle=toc] ul.nav li.active ul.nav li.active ul.nav {
+    display: block !important;
+} */
+
+/* nav[data-toggle=toc] .nav>.active>.nav>ul {
+    display: block
+} */
+
+/* nav[data-toggle=toc] ul.nav li.active ul.nav > :first-of-type {
+    display: block
+} */
