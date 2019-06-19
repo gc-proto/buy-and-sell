@@ -17,18 +17,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> 		<!-- makes ToC work -->
 
 
-<!--<![endif]-->
-<!--[if lt IE 9]>
-		<link href="./GCWeb/assets/favicon.ico" rel="shortcut icon" />
-
-		<link rel="stylesheet" href="./GCWeb/css/ie8-theme.min.css" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="./wet-boew/js/ie8-wet-boew.min.js"></script>
-		<![endif]-->
-<!--[if lte IE 9]>
 
 
-		<![endif]-->
     <style>
     @media screen and (max-width: 737px) {
     #wb-bc li:before {
@@ -52,6 +42,7 @@
     }
 
     </style>
+    
 <noscript><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/noscript.min.css" /></noscript>
 </head>
 
@@ -134,6 +125,12 @@
 </nav>
 
 
+<style>
+.affix {
+    top: 50px;
+    z-index: 9999 !important;
+  }
+</style>
 
     <div class="container">
       <div class="profile firsth1">
@@ -142,7 +139,7 @@
       <div class="row">
         <div class="col-sm-4  hidden-xs hidden-sm">
 
-          <nav id="toc" data-spy="affix" data-toggle="toc" class="affix">
+          <nav id="toc" data-spy="affix" data-toggle="toc" data-offset-top="250" class="affix">
             <!-- <h2 class="h3" style="margin-top:40px;">Search the specification</h2>
 
             <form id="find-in-doc" class="form-inline">
@@ -1217,9 +1214,7 @@
 
       <![endif]-->
   <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
-  <script>
-  document.getElementById('submissionPage').value = location.href;
-  </script>
+
 
 </div>
   </body>
