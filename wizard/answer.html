@@ -60,25 +60,25 @@ padding: 1em 0 1.3em 0;
 
               }
 
-              summary {
+              .code summary {
               	border: none !important;
               	margin: 0 0 0 0 !important;
               	padding: 0 0 0 0 !important;
 
               }
 
-              summary span {
+              .code summary span {
                 font-size: 18px !important;
                 text-decoration: underline !important;
               }
 
-              details p {
+              .code details p {
                 font-size: 18px;
                 margin-left: 1em;
                 margin-bottom: 0;
               }
 
-              details {
+              .code details {
               	border: none !important;
               	margin: 0 0 0 0 !important;
               	padding: 0 0 0 0 !important;
@@ -109,7 +109,7 @@ padding: 1em 0 1.3em 0;
 <a class="wb-sl" href="#wb-info">Skip to "About government"</a>
 </li>
 </ul>
-<!-- <header>
+<header>
 <div id="wb-bnr" class="container">
 <section id="wb-lng" class="text-right">
 <h2 class="wb-inv">Language selection</h2>
@@ -172,37 +172,40 @@ padding: 1em 0 1.3em 0;
 </ol>
 </div>
 </nav>
-</header> -->
+</header>
 
 <!-- class="gc-theme" is doing some weird stuff with the first h2... -->
-<!-- <main property="mainContentOfPage" class="container"> -->
+<main property="mainContentOfPage" class="container">
 
-<!-- <h1 property="name" id="wb-cont" dir="ltr">Become a supplier wizard</h1> -->
-<main>
+<h1 property="name" id="wb-cont" dir="ltr">Find the best way to compete for government contracts</h1>
 
-<div style="padding-left: .9em;">
-<h2>Find the best way to compete for government contracts</h2>
+<div>
 <div class="col-md-8 row">
-  <p>You have selected <strong>Architectural and engineering consulting services</strong>.
+  <p>For <strong>Architectural and engineering consulting services.</strong>
   </p>
- <!-- because not aboriginal, women, or green -->
-  <p>There are 2 ways to bid on government contracts for this type of service:
-  </p>
-  <ol>
-    <li><a href="http://tbs-proto.openplus.ca/en/business/canadabuys/how-procurement-works/methods-of-supply/select-method-supply" target="_blank">Become an approved supplier&nbsp;in SELECT</a>. This&nbsp;is the primary method of supply for this type of service. SELECT is a database of approved suppliers. The Government of Canada invites these suppliers to bid on opportunities.</li>
-    <li><a href="https://buyandsell.gc.ca/procurement-data/search/site?f%5B0%5D=sm_facet_procurement_data%3Adata_data_tender_notice&amp;f%5B1%5D=ss_publishing_status%3ASDS-SS-005" target="_blank">Browse opportunities</a>&nbsp;by keyword or by category code (UNSPSC) and bid directly.</li>
 
-  </ol>
+  <h3>Join the database of approved suppliers</h3>
+  <ul>
+    <li><a href="http://tbs-proto.openplus.ca/en/business/canadabuys/how-procurement-works/methods-of-supply/select-method-supply" target="_blank">Become an approved supplier&nbsp;in <b>SELECT</b></a>. This&nbsp;is the primary method of supply for this type of service. The Government of Canada invites these suppliers to bid on opportunities.</li>
 
-  <h3>Goods and services commodity code (UNSPSC)</h3>
+  </ul>
 
-  <p>Architectural engineering - 81101508</p>
+  <h3>Look up opportunities by category and code (UNSPSC)</h3>
+  <p>Your code is: <b>Architectural engineering - 81101508</b></p>
+
+    <ul><li><a href="https://buyandsell.gc.ca/procurement-data/search/site?f%5B0%5D=sm_facet_procurement_data%3Adata_data_tender_notice&amp;f%5B1%5D=ss_publishing_status%3ASDS-SS-005" target="_blank">Browse opportunities&nbsp;for category code 81101508</a> and bid directly.</li></ul>
+
 </div>
+<div class="clearfix"></div>
+<br>
+<details>
+
+<summary>Category and code hierarchy for Architectural engineering - 81101508</summary>
   <div class="col-md-12 well">
       <h3 style="margin-top: 0;">Hierarchy
       </h3>
-      <details>
-        <summary><span>Commodity codes (UNSPSC)</span>
+      <details class="code">
+        <summary><span>Category and code (UNSPSC)</span>
         </summary>
         <div style="margin-left: 45px;">
           <details>
@@ -346,16 +349,15 @@ padding: 1em 0 1.3em 0;
               </p>
             </div>
           </div>
+        </details>
+
         </div>
       </div>
     </div>
 </div>
 
-
-
-</div>
 </main>
-<!--
+
     <div class="clearfix"></div>
 
 <div class="pagedetails">
@@ -486,7 +488,7 @@ padding: 1em 0 1.3em 0;
   </div>
   </div>
   </div>
-  </footer> -->
+  </footer>
   <!--[if gte IE 9 | !IE ]><!-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
   <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
